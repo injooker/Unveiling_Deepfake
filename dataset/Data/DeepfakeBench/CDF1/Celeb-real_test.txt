@@ -1,0 +1,8 @@
+0,/data/deepfake/deepfakebench_datasets/CDF1/Celeb-real/frames/id1_0007
+0,/data/deepfake/deepfakebench_datasets/CDF1/Celeb-real/frames/id2_0008
+0,/data/deepfake/deepfakebench_datasets/CDF1/Celeb-real/frames/id17_0000
+0,/data/deepfake/deepfakebench_datasets/CDF1/Celeb-real/frames/id9_0000
+0,/data/deepfake/deepfakebench_datasets/CDF1/Celeb-real/frames/id16_0011
+0,/data/deepfake/deepfakebench_datasets/CDF1/Celeb-real/frames/id3_0001
+0,/data/deepfake/deepfakebench_datasets/CDF1/Celeb-real/frames/id6_0005
+0,/data/deepfake/deepfakebench_datasets/CDF1/Celeb-real/frames/id11_0008
