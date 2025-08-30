@@ -11,7 +11,7 @@ import random
 import numpy as np
 import logging
 from network.models import model_selection
-from network.mesonet import Meso4, MesoInception4
+#from network.mesonet import Meso4, MesoInception4
 from network.xception import TransferModel, Xception
 #from network.mymodel import Xception_Net
 from network.mymodel_bdct_dfcs_triplet_mi_loss import Xception_Net
@@ -217,7 +217,7 @@ if __name__ == '__main__':
     parse.add_argument('--batch_size', '-bz', type=int, default=64)
     parse.add_argument('--epoches', '-e', type=int, default='15')
     parse.add_argument('--lr', '-lr', type=float, default=5e-4)
-    #parse.add_argument('--model_name', '-mn', type=str, default='xception_dfcs_cdf2_miloss_benchmark.pkl')
-    #parse.add_argument('--continue_train', type=bool, default=False)
-    #parse.add_argument('--model_path', '-mp', type=str, default='./output/df_xception_c0_299/1_df_c0_299.pkl')
+    parse.add_argument('--model_name', '-mn', type=str, default='xception_dfcs_cdf2_miloss_benchmark.pkl')
+    parse.add_argument('--continue_train', type=bool, default=False)
+    parse.add_argument('--model_path', '-mp', type=str, default='./output/df_xception_c0_299/1_df_c0_299.pkl')
     main()

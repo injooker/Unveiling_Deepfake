@@ -14,10 +14,10 @@ class loss_functions():
         loss_num=1
         if gia_loss:
             loss_num+=1
-            logging.info("With Global Information Loss")
+            logging.info("With Global Information Alignment Loss")
         if dec_loss:
             loss_num+=1
-            logging.info("With Local Information Loss")
+            logging.info("With Decoupling Loss")
         self.balance_loss = AutomaticWeightedLoss(loss_num)  # we have 3 losses
 
         self.softmax = torch.nn.Softmax(dim=1)
