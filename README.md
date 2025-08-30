@@ -12,7 +12,7 @@
    
    <!---2. Download the landmark detector from [here](https://github.com/codeniko/shape_predictor_81_face_landmarks).-->
 
-2. Extract frames from FF++ videos. The processed dataset can be downloaded from [FF++](https://pan.baidu.com/s/1ZHm-WCiPjor2Tz2IsuojvA) (code: 7s5s).
+2. Extract frames from FF++ videos.
 
 3. Run the code in folder *./process* to get the aligned images and masks.
 
