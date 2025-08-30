@@ -28,9 +28,13 @@ Put the file into the `network/` folder before training or testing.
 
 Our model achieved the following performance on:
 
-| Training Data | Backbone | FF++  | Celeb-DF2 | DFDC_Pre | DFDC  |
-| ------------- | -------- | ----- | --------- | -------- | ----- |
-| FF++          | Xception | 0.990 | 0.872     | 0.777    | 0.735 |
+| Training Data | Backbone | FF++  | Celeb-DF2 | Celeb-DF |
+| ------------- | -------- | ----- | --------- | -------- |
+| FF++          | Xception | 0.990 | 0.872     | 0.796    |
+
+| Training Data | Backbone | Celeb-DF2 |
+| ------------- | -------- | --------- | 
+| Celeb-DF2     | Xception |   0.999   |
 
 Note: the metric is *frame-level AUC*.
 
