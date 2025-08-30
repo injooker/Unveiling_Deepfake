@@ -1,6 +1,6 @@
 # Unveiling Deepfakes: A Frequency-Aware Triple Branch Network for Deepfake Detection
 
-![framework](https://github.com/injooker/Unveiling_Deepfake/edit/master/framework.png)
+![framework](https://github.com/injooker/Unveiling_Deepfake/blob/master/framework.png?raw=true)
 
 ## Dependencies
 
