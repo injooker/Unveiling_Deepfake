@@ -4,7 +4,7 @@
 
 ## Dependencies
 
-    pip install requirement.txt
+    pip install -r requirements.txt
 
 ## Data Preparation
 
@@ -15,6 +15,14 @@
 2. Extract frames from FF++ videos.
 
 3. Run the code in folder *./process* to get the aligned images and masks.
+
+## Pretrained Model
+
+You can download the pretrained **Xception** weights from here:
+
+- [xception-b5690688.pth](https://data.lip6.fr/cadene/pretrainedmodels/xception-b5690688.pth)  (ImageNet pretrained)
+
+Put the file into the `network/` folder before training or testing.
 
 ## Results
 
@@ -28,8 +36,8 @@ Note: the metric is *frame-level AUC*.
 
 ## Training
 
-To train our model from scratch, please run :
+To train our model from scratch, please run:
 
-```
-    python3  train.py
-```
+```bash
+python3 train.py
+
