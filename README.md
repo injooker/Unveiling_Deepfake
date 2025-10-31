@@ -43,5 +43,5 @@ Note: the metric is *frame-level AUC*.
 To train our model from scratch, please run:
 
 ```bash
-python3 train.py
+python3 train.py --train_list /path/to/your/trainset --var_list /path/to/your/varset
 
